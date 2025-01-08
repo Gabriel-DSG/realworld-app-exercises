@@ -9,8 +9,8 @@ describe('New User Registration Success', () => {
     cy.get("#confirmPassword").type('test123')
     cy.get("[type='submit']").click()
     cy.get('.SignInForm-logo').should('be.visible')
-  });
-});
+  })
+})
 
 describe('Register with Incomplete Information', () => {
   it('The submit button should be disabled if not all fields are filled correctly', () => {
@@ -21,8 +21,8 @@ describe('Register with Incomplete Information', () => {
     cy.get("#password").type('test123')
     cy.get("#confirmPassword").type('test123')
     cy.get("[type='submit']").should('be.disabled')
-  });
-});
+  })
+})
 
 describe('Login Success', () => {
   it('Should login with valid credentials', () => {
@@ -31,8 +31,8 @@ describe('Login Success', () => {
     cy.get('#password').type('test123')
     cy.get("[type='submit']").click()
     cy.get('.NavBar-logo').should('be.visible')
-  });
-});
+  })
+})
 
 describe('Login with Invalid Credentials', () => {
   it('An error message should appear when trying to login with invalid credentials', () => {
@@ -41,5 +41,5 @@ describe('Login with Invalid Credentials', () => {
     cy.get('#password').type('Slipknot')
     cy.get("[type='submit']").click()
     cy.get("[role='alert']").should('include.text', 'Username or password is invalid')
-  });
-});
+  })
+})
