@@ -18,5 +18,29 @@
     "firstName": "Axl",
     "username": "Axl Rose",
     "password": "Conflict1984"
+  },
+  "userPositiveBalance": {
+    "username": "Dina20",
+    "password": "s3cret"
+  },
+  "userZeroBalance": {
+    "username": "Baba Yaga",
+    "password": "Conflict1984"
+  },
+  "bankInfo": {
+    "bankName": "Sic Bank",
+    "routingNumber": "666555666",
+    "accountNumber": "234567823"
+  },
+  "userRegisterEmptyHistory": {
+    "firstName": "W.",
+    "lastName": "Rose",
+    "username": "Axl Rose",
+    "password": "GNR2017",
+    "confirmPassword": "GNR2017"
+  },
+  "userLoginEmptyHistory": {
+    "username": "Axl Rose",
+    "password": "GNR2017"
   }
 }
