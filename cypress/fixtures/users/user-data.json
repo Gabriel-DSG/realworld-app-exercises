@@ -1,0 +1,22 @@
+{
+  "userSuccess": {
+    "username": "Arvilla_Hegmann",
+    "password": "s3cret"
+  },
+  "userFail": {
+    "username": "User",
+    "password": "user123"
+  },
+  "userRegisterSuccess": {
+    "firstName": "Alex",
+    "lastName": "Terrible",
+    "username": "Baba Yaga",
+    "password": "Conflict1984",
+    "confirmPassword": "Conflict1984"
+  },
+  "userRegisterFail": {
+    "firstName": "Axl",
+    "username": "Axl Rose",
+    "password": "Conflict1984"
+  }
+}
